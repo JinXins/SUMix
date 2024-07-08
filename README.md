@@ -61,28 +61,40 @@ ___
 ## 📊 Experiments
 
 ### CIFAR-100
-| Name             | alpha | Conference | ResNet18 | ResNeXt50 | Swin-Tiny |
-|------------------|-------|------------|----------|-----------|-----------|
-| [CutMix](https://arxiv.org/abs/1905.04899)           | 0.2   | ICCV2019   | 78.17   | 78.32    | 80.64 |
-| [SaliencyMix](https://arxiv.org/abs/2006.01791)      | 0.2   | ICLR2021   | 79.12   | 78.77    | 80.40 |
-| [FMix](https://arxiv.org/abs/2002.12047)             | 0.2   | ArXiv      | 79.69   | 79.02    | 80.72 |
-| [ResizeMix](https://arxiv.org/abs/2012.11101)        | 1.0   | CVMJ2023   | 80.01   | 80.35    | 80.16 |
+| Name             | alpha | Conference | ResNet18 | ResNeXt50 | Wide-ResNet28 | DeiT-Small | Swin-Tiny |
+|------------------|-------|------------|----------|-----------|-----------|-----------|-----------|
+| [CutMix](https://arxiv.org/abs/1905.04899)           | 0.2   | ICCV2019   | 78.17   | 78.32    | 84.45 | 74.12    | 80.64 |
+| [SaliencyMix](https://arxiv.org/abs/2006.01791)      | 0.2   | ICLR2021   | 79.12   | 78.77    | 84.35 | 69.78    | 80.40 |
+| [FMix](https://arxiv.org/abs/2002.12047)             | 0.2   | ArXiv      | 79.69   | 79.02    | 84.21 | 70.41    | 80.72 |
+| [ResizeMix](https://arxiv.org/abs/2012.11101)        | 1.0   | CVMJ2023   | 80.01   | 80.35    | 84.87 | 68.45    | 80.16 |
+| CutMix+SUMix           | 0.2   | -   | 79.78    | 79.91     | 84.56    | 75.26    | 80.32 |
+| SaliencyMix+SUMix      | 0.2   | -   | 79.91    | 79.32     | 84.58    | 70.32    | 84.71 |
+| FMix+SUMix             | 0.2   | -   | 80.20    | 80.79     | 84.32    | 70.69    | 80.73 |
+| ResizeMix+SUMix        | 1.0   | -   | 80.38    | 80.72     | 84.91    | 68.78    | 80.59 |
 ___
 ### Tiny-ImageNet & ImageNet-1K(denote *)
-| Name             | alpha | Conference | ResNet18 | ResNeXt50 | ResNet18* |
+| Name             | alpha | Conference | ResNet18 | ResNeXt50 | ResNet18 |
 |------------------|-------|------------|----------|-----------|----------|
 | CutMix           | 0.2   | ICCV2019   | 65.53    | 66.47     | 68.95    |
-| SaliencyMix      | 0.2   | ICLR2021   | 64.40    | 66.55     | 69.16    |
+| SaliencyMix      | 0.2   | ICLR2021   | 64.60    | 66.55     | 69.16    |
 | FMix             | 0.2   | ArXiv      | 63.47    | 65.08     | 69.96    |
-| ResizeMix        | 1.0   | CVMJ2023   | 63.17    | 65.87     | 69.50    |
+| ResizeMix        | 1.0   | CVMJ2023   | 63.74    | 65.87     | 69.50    |
+| CutMix+SUMix     | 0.2   | -   | 65.71    | 68.74     | 69.71    |
+| SaliencyMix+SUMix| 0.2   | -   | 65.68    | 68.92     | 69.52    |
+| FMix+SUMix       | 0.2   | -   | 63.69    | 67.12     | 70.48    |
+| ResizeMix+SUMix  | 1.0   | -   | 65.30    | 67.49     | 69.76    |
 ___
 ### CUB-200, FGVC-Aircraft and Standford Cars
-| Name             | alpha | Confrence  | CUB R18 | CUB R50 | FGVC R18 | FGVC RX50 |
+| Name             | alpha | Confrence  | CUB R18 | CUB RX50 | FGVC R18 | FGVC RX50 |
 |------------------|-------|------------|---------|---------|---------|------------|
-| CutMix           | 0.2   | ICCV2019   | 78.40   | 83.17   | 78.84   | 84.55   |
-| SaliencyMix      | 0.2   | ICLR2021   | 77.95   | 82.02   | 80.02   | 84.31   |
-| FMix             | 0.2   | ArXiv      | 77.28   | 83.34   | 79.36   | 86.23   | 
-| ResizeMix        | 1.0   | CVMJ2023   | 78.5    | 83.41   | 78.1    | 84.08   |
+| CutMix           | 0.2   | ICCV2019   | 77.70   | 83.67   | 78.84   | 84.55   |
+| SaliencyMix      | 0.2   | ICLR2021   | 75.77   | 82.83   | 79.78   | 84.31   |
+| FMix             | 0.2   | ArXiv      | 77.28   | 84.06   | 79.36   | 84.10   | 
+| ResizeMix        | 1.0   | CVMJ2023   | 78.50   | 84.16   | 78.10   | 84.08   |
+| CutMix+SUMix     | 0.2   | -   | 78.20   | 83.71   | 79.72   | 85.84   |
+| SaliencyMix+SUMix| 0.2   | -   | 76.98   | 82.84   | 79.90   | 84.49   |
+| FMix+SUMix       | 0.2   | -   | 79.24   | 84.33   | 79.48   | 84.64   | 
+| ResizeMix+SUMix  | 1.0   | -   | 78.56   | 84.23   | 80.29   | 85.12   |
 
 ___
 
