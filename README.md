@@ -2,7 +2,7 @@
 <!-- <h1>SUMix: Mixup with Semantic and Uncertain Information</h1> -->
 <h2><a href="https://arxiv.org/abs/2312.11954">SUMix: Mixup with Semantic and Uncertain Information (ECCV 2024)</a></h2>
 
-[Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)<sup>1,\*,†</sup>, [Xin Jin](https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN)<sup>1,\*</sup>, Hongyu Zhu<sup>1,\*</sup>, Hongchao Liao<sup>1</sup>, [Mounim A. El-Yacoubi](https://scholar.google.com/citations?user=ObFYefYAAAAJ&hl=zh-CN)<sup>2</sup>, [Xinbo Gao](https://scholar.google.com/citations?user=VZVTOOIAAAAJ&hl=zh-CN&oi=sra)<sup>3</sup>
+[Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)<sup>1,\*,†</sup>, [Xin Jin](https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN)<sup>1,\*</sup>, [Hongyu Zhu](https://scholar.google.com/citations?user=P-QctiYAAAAJ&hl=zh-CN)<sup>1,\*</sup>, Hongchao Liao<sup>1</sup>, [Mounim A. El-Yacoubi](https://scholar.google.com/citations?user=ObFYefYAAAAJ&hl=zh-CN)<sup>2</sup>, [Xinbo Gao](https://scholar.google.com/citations?user=VZVTOOIAAAAJ&hl=zh-CN&oi=sra)<sup>3</sup>
 
 <sup>1</sup>[Chongqing Technology and Business University](https://www.ctbu.edu.cn/)
 
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" width=75% height=75% 
+<img src="https://github.com/JinXins/SUMix/assets/124172716/1725dfb7-ab1e-4429-a34b-0dfdd3bc2a6f" width=75% height=75% 
 class="center">
 </p>
 
