@@ -2,13 +2,17 @@
 <!-- <h1>SUMix: Mixup with Semantic and Uncertain Information</h1> -->
 <h2><a href="https://arxiv.org/abs/2312.11954">SUMix: Mixup with Semantic and Uncertain Information (ECCV 2024)</a></h2>
 
-[Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)<sup>1,\*,†</sup>, [Xin Jin](https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN)<sup>1,\*</sup>, [Hongyu Zhu](https://scholar.google.com/citations?user=P-QctiYAAAAJ&hl=zh-CN)<sup>1,\*</sup>, Hongchao Liao<sup>1</sup>, [Mounim A. El-Yacoubi](https://scholar.google.com/citations?user=ObFYefYAAAAJ&hl=zh-CN)<sup>2</sup>, [Xinbo Gao](https://scholar.google.com/citations?user=VZVTOOIAAAAJ&hl=zh-CN&oi=sra)<sup>3</sup>
+[Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)<sup>1,2,5\*,†</sup>, [Xin Jin](https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN)<sup>1,2,\*</sup>, [Hongyu Zhu](https://scholar.google.com/citations?user=P-QctiYAAAAJ&hl=zh-CN)<sup>1,2,\*</sup>, Hongchao Liao<sup>1,2</sup>, [Mounim A. El-Yacoubi](https://scholar.google.com/citations?user=ObFYefYAAAAJ&hl=zh-CN)<sup>3</sup>, [Xinbo Gao](https://scholar.google.com/citations?user=VZVTOOIAAAAJ&hl=zh-CN&oi=sra)<sup>4</sup>
 
 <sup>1</sup>[Chongqing Technology and Business University](https://www.ctbu.edu.cn/)
 
-<sup>2</sup>[Telecom SudParis, Institut Polytechnique de Paris](https://www.ip-paris.fr/telecom-sudparis)
+<sup>2</sup>[National Research base of Intelligent Manufacturing Service](https://ghjd.ctbu.edu.cn/)
 
-<sup>3</sup>[Chongqing University of Posts and Telecommunications](https://www.cqupt.edu.cn/)
+<sup>3</sup>[Telecom SudParis, Institut Polytechnique de Paris](https://www.ip-paris.fr/telecom-sudparis)
+
+<sup>4</sup>[Chongqing University of Posts and Telecommunications](https://www.cqupt.edu.cn/)
+
+<sup>5</sup>Chongqing Micro-Vein Intelligent Technology Co.
 
 <sup>*</sup> Equal Contribution <sup>†</sup> Corresponding Author
 </div>
@@ -52,7 +56,7 @@ git clone https://github.com/Westlake-AI/openmixup.git
 cd openmixup
 python setup.py develop
 ```
-**Here are the commands to git clone AdAutoMixup**
+**Here are the commands to git clone SUMix**
 ```markdown
 git clone https://github.com/JinXins/SUMix.git
 ```
@@ -101,9 +105,9 @@ ___
 ## 😉 Citation
 **If you feel that our work has contributed to your research, please cite it, 🥰 and please don`t forget to cite OpenMixup if you use this project ! 🤗 Thanks.**  
 ```markdown
-@inproceedings{eccv2024sumix,
-      title={SUMix: Mixup with Semantic and Uncertain Information},
-      author={Huafeng Qin and Xin Jin and Hongyu Zhu and Hongchao Liao and Mounim A. El-Yacoubi and Xinbo Gao},
-      booktitle={European Conference on Computer Vision},
-      year={2024},
+@article{qin2024sumix,
+  title={SUMix: Mixup with Semantic and Uncertain Information},
+  author={Qin, Huafeng and Jin, Xin and Zhu, Hongyu and Liao, Hongchao and El-Yacoubi, Moun{\^\i}m A and Gao, Xinbo},
+  journal={arXiv preprint arXiv:2407.07805},
+  year={2024}
 }
