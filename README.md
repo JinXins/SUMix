@@ -38,7 +38,7 @@ We propose **SUMix**, which consists of a mix ratio learning module and an uncer
 ___
 ## 🛠 Installation
 ***💥News! ! !💥***  
-***2024-07-8:*** **Please Wait for a while, we will release the code and checkpoints.**
+***2024-07-8:*** **Please Wait for a while, we will release the code and checkpoints. I am busy in AAAI2025 submission, so please wait few days**
 
 ***🔧How to install?🔧***  
 *In fact, you can add our python file in **OpenMixup***.  
