@@ -1,0 +1,4 @@
+mmcv>=1.4.7
+mmengine
+torch
+torchvision
